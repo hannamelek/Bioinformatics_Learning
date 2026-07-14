@@ -1,4 +1,5 @@
 # Day 3 - Installing BLAST+ on WSL2
+---
 
 ## Goal
 Install BLAST+ locally using Conda and create a FASTA file.
