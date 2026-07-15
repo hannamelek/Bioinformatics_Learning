@@ -10,3 +10,4 @@ conda install -c bioconda blast -y
 blastp -version
 mkdir ~/blast_practice && cd ~/blast_practice
 echo ">mystery\nMTEYKLVVVGAGGVGKSALTIQLIQNHFVDE" > mystery.fasta
+cat mystery.fasta
