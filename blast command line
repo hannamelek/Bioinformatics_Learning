@@ -1,4 +1,5 @@
 # Day 3 - Installing BLAST+ on WSL2
+---
 
 ## Goal
 Install BLAST+ locally using Conda and create a FASTA file.
@@ -10,4 +11,7 @@ conda install -c bioconda blast -y
 blastp -version
 mkdir ~/blast_practice && cd ~/blast_practice
 echo ">mystery\nMTEYKLVVVGAGGVGKSALTIQLIQNHFVDE" > mystery.fasta
+<<<<<<< HEAD
 cat mystery.fasta
+=======
+>>>>>>> bdbe214a3ae4e412a2be8f697ecc5c1a8763cb60
