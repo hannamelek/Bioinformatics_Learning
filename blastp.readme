@@ -5,7 +5,6 @@
 Learn how to perform a remote BLASTP search against the NCBI non-redundant (nr) protein database, understand BLAST tabular output formats, and filter significant sequence matches using Linux command-line tools.
 
 ---
-
 ## Tasks Completed
 
 * Ran a remote BLASTP search using the `-remote` option.
