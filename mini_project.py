@@ -1,4 +1,4 @@
-#%%
+
 
 from Bio.Blast import NCBIWWW, NCBIXML
 import pandas as pd 
@@ -53,4 +53,7 @@ print(df)
 df.to_csv("blast_summary.csv", index=False)
 
 print("\nResults saved as blast_summary.csv")
-# %%
+
+
+
+
