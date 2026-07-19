@@ -14,7 +14,6 @@ Learn how to perform a remote BLASTP search against the NCBI non-redundant (nr) 
 * Generated BLAST output with column headers using `-outfmt 7`.
 
 ---
-
 ## Commands Used
 
 ```bash
