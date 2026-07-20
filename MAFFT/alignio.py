@@ -52,4 +52,6 @@ plt.ylim(0,100)
 
 plt.tight_layout()
 
+plt.savefig("conservation_plot.png", dpi=300)
 plt.show()
+
