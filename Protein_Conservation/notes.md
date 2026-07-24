@@ -22,5 +22,4 @@ Analyze conservation of GAPDH proteins from ten organisms using MAFFT and Biopyt
 - conservation_profile.png
 
 ## Conclusion
-
 Highly conserved regions are likely to represent functionally or structurally important residues that have been preserved throughout evolution.
