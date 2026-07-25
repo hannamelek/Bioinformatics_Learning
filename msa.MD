@@ -76,6 +76,7 @@ Clustal Omega is an online Multiple Sequence Alignment tool used to align multip
 - Preserved through evolution
 
 ### Variable Regions
+
 - Differ between sequences
 - May represent mutations or evolutionary divergence
 - Can contribute to species-specific adaptations
