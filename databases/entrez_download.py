@@ -54,3 +54,14 @@ for pid in ids[:5]:
     SeqIO.write(records, "tp53_sequences.fasta", "fasta")
 
 print("Saved", len(records), "sequences.")
+
+handle = Entrez.efetch(
+    db="protein",
+    id=ids[0],
+    rettype="gb",
+    retmode="text"
+)
+
+record = SeqIO.read(handle, "genpept")
+handle.close()
+
