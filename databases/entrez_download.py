@@ -64,4 +64,25 @@ handle = Entrez.efetch(
 
 record = SeqIO.read(handle, "genpept")
 handle.close()
+ 
+print("ID:", record.id)
+print("Name:", record.name)
+print("Description:", record.description)
+print("Length:", len(record.seq))
 
+print("\nFeatures:\n")
+
+for feature in record.features:
+    print(feature.type)
+
+handle = Entrez.efetch(
+    db="protein",
+    id=ids[0],
+    rettype="gb",
+    retmode="text"
+)
+
+record = SeqIO.read(handle, "genpept")
+handle.close()
+
+SeqIO.write(record, "tp53.gp", "genpept")
