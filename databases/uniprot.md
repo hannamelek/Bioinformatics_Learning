@@ -23,7 +23,6 @@ UniProt is a comprehensive protein database that provides protein sequences, fun
 - Useful when no Swiss-Prot entry exists.
 
 ---
-
 ## TP53 (Human)
 
 UniProt Accession:
