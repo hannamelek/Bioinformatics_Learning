@@ -41,3 +41,5 @@ for pid in ids:
 SeqIO.write(records, "BRCA1_proteins.fasta", "fasta")
 
 print("Saved", len(records), "protein sequences.")
+
+awk '$3 == "exon"' BRCA1.gff3 | wc -l
