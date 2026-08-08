@@ -37,7 +37,7 @@ for pid in ids:
 
     time.sleep(0.5)
 
-# Save sequences
+
 SeqIO.write(records, "BRCA1_proteins.fasta", "fasta")
 
 print("Saved", len(records), "protein sequences.")
